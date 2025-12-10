@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/Points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/points_initial"
+            android:textSize="36sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/PerSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/points_per_second_initial"
+            android:textSize="14sp"
+            android:textColor="#B3B3B3"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/AtomContainer"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/Orbit1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:alpha="0.4"
+            android:src="@drawable/circle_orbit"
+            app:tint="@color/light_blue"/>
+
+        <ImageView
+            android:id="@+id/Orbit2"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/circle_orbit"
+            android:alpha="0.4"
+            app:tint="@color/light_blue"
+            android:rotation="45"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/Orbit3"
+            android:layout_width="240dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:src="@drawable/circle_orbit"
+            android:alpha="0.4"
+            app:tint="@color/light_blue"
+            android:rotation="-45"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/Nucleus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_gradient_red"
+            android:elevation="6dp"/>
+
+        <ImageView
+            android:id="@+id/ClickEffect1"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/circle_gradient_blue"/>
+
+        <ImageView
+            android:id="@+id/ClickEffect2"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/circle_gradient_green"/>
+
+        <ImageView
+            android:id="@+id/ClickEffect3"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center"
+            android:alpha="0"
+            android:background="@drawable/circle_gradient_orange"/>
+
+
+        <ImageView
+            android:id="@+id/Electron1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_gradient_blue"
+            android:elevation="5dp"/>
+
+        <ImageView
+            android:id="@+id/Electron1_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_gradient_blue"
+            android:elevation="5dp"/>
+
+        <ImageView
+            android:id="@+id/Electron2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_gradient_green"
+            android:elevation="5dp"/>
+
+        <ImageView
+            android:id="@+id/Electron2_2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_gradient_green"
+            android:elevation="5dp"/>
+
+        <ImageView
+            android:id="@+id/Electron3"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_gradient_orange"
+            android:elevation="5dp"/>
+
+        <TextView
+            android:id="@+id/ClickText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/click_text_initial"
+            android:textSize="18sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:alpha="0"
+            android:elevation="10dp"/>
+    </FrameLayout>
+    
+    <LinearLayout
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/card_bg"
+        android:orientation="horizontal"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btnUpgrades"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_upgrade"
+                android:tint="@color/light_blue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upgrades"
+                android:textSize="12sp"
+                android:textColor="@color/light_blue"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_atom"
+                android:tint="@color/blue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atom"
+                android:textSize="12sp"
+                android:textColor="@color/blue"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnAchievements"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+                <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_achievement"
+                android:tint="@color/light_blue"/>
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/achievements"
+                android:textSize="12sp"
+                android:textColor="@color/light_blue"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnSettings"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_settings"
+                android:tint="@color/light_blue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings"
+                android:textSize="12sp"
+                android:textColor="@color/light_blue"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
