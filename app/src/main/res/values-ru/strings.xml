@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Атом Кликер</string>
+
+    <string name="points_initial">0</string>
+    <string name="points_per_second_initial">+0/сек</string>
+    <string name="points_per_second_format">+%d/сек</string>
+    <string name="upgrades">Улучшения</string>
+    <string name="atom">Атом</string>
+    <string name="achievements">Достижения</string>
+    <string name="settings">Настройки</string>
+    <string name="click_text_initial">+1</string>
+    <string name="click_text_format">+%d</string>
+    <string name="bonus_text">БОНУС!</string>
+
+    <string name="not_enough_points">Недостаточно очков!</string>
+    <string name="upgrade_purchased">Улучшение куплено!</string>
+    <string name="autoclicker_purchased">Автокликер куплен!</string>
+    <string name="multiplier_purchased">Множитель куплен!</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="sound">Звук</string>
+    <string name="sound_enable">Включить звуки</string>
+    <string name="music_enable">Фоновая музыка</string>
+    <string name="vibration">Вибрация</string>
+    <string name="vibration_enable">Включить вибрацию</string>
+    <string name="language">Язык</string>
+    <string name="progress">Прогресс</string>
+    <string name="reset_progress">Сбросить прогресс</string>
+    <string name="reset_warning">Внимание: это действие невозможно отменить!</string>
+    <string name="about">О приложении</string>
+    <string name="app_version">Atom Clicker v1.0</string>
+
+    <string name="language_change">Смена языка</string>
+    <string name="language_changed">Язык изменен на: %s\nПриложение будет перезапущено</string>
+    <string name="reset_title">Сброс прогресса</string>
+    <string name="reset_message">Вы уверены, что хотите сбросить весь прогресс?\nЭто действие невозможно отменить.</string>
+    <string name="reset_confirm">Сбросить</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">OK</string>
+    <string name="reset_complete">Прогресс сброшен</string>
+
+    <string name="upgrades_title">Улучшения</string>
+    <string name="balance">Баланс: </string>
+    <string name="click_upgrade">Усиление клика</string>
+    <string name="click_upgrade_desc">+1 к очкам за клик</string>
+    <string name="current_level_format">Текущий уровень: %d</string>
+    <string name="cost_format">Стоимость: %d очков</string>
+    <string name="buy">Купить</string>
+    <string name="autoclicker">Автокликер</string>
+    <string name="autoclicker_desc">+1 очко в секунду</string>
+    <string name="multiplier">Множитель</string>
+    <string name="multiplier_desc">x1.5 к очкам за клик</string>
+    <string name="upgrades_info">Улучшения действуют постоянно и суммируются</string>
+
+    <string name="achievements_title">Достижения</string>
+    <string name="achievement_progress">Прогресс: </string>
+    <string name="first_click">Первый клик</string>
+    <string name="first_click_desc">Сделайте первый клик</string>
+    <string name="hundred_clicks">100 кликов</string>
+    <string name="hundred_clicks_desc">Сделайте 100 кликов</string>
+    <string name="reward_format">Награда: %d очков</string>
+    <string name="claim">Забрать</string>
+    <string name="claimed">Получено</string>
+    <string name="achievements_info">Награды за достижения можно получить только один раз</string>
+    <string name="reward_received">Получено %d очков!</string>
+</resources>

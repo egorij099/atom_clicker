@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">atomclicker</string>
+
+    <string name="points_initial" translatable="false">0</string>
+    <string name="points_per_second_initial">+0/sec</string>
+    <string name="points_per_second_format">+%d/sec</string>
+    <string name="upgrades">Upgrades</string>
+    <string name="atom">Atom</string>
+    <string name="achievements">Achievements</string>
+    <string name="settings">Settings</string>
+    <string name="click_text_initial">+1</string>
+    <string name="click_text_format">+%d</string>
+    <string name="bonus_text">BONUS!</string>
+
+    <string name="not_enough_points">Not enough points!</string>
+    <string name="upgrade_purchased">Upgrade purchased!</string>
+    <string name="autoclicker_purchased">Autoclicker purchased!</string>
+    <string name="multiplier_purchased">Multiplier purchased!</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="language">Language</string>
+    <string name="progress">Progress</string>
+    <string name="reset_progress">Reset Progress</string>
+    <string name="reset_warning">Warning: this action cannot be undone!</string>
+    <string name="about">About</string>
+    <string name="app_version">Atom Clicker v1.0</string>
+
+    <string name="language_change">Language Change</string>
+    <string name="language_changed">Language changed to: %s\nApplication will restart</string>
+    <string name="reset_title">Reset Progress</string>
+    <string name="reset_message">Are you sure you want to reset all progress?\nThis action cannot be undone.</string>
+    <string name="reset_confirm">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="reset_complete">Progress reset</string>
+
+    <string name="upgrades_title">Upgrades</string>
+    <string name="balance">Balance: </string>
+    <string name="click_upgrade">Click Upgrade</string>
+    <string name="click_upgrade_desc">+1 to points per click</string>
+    <string name="current_level_format">Current level: %d</string>
+    <string name="cost_format">Cost: %d points</string>
+    <string name="buy">Buy</string>
+    <string name="autoclicker">Autoclicker</string>
+    <string name="autoclicker_desc">+1 point per second</string>
+    <string name="multiplier">Multiplier</string>
+    <string name="multiplier_desc">x1.5 to points per click</string>
+    <string name="upgrades_info">Upgrades are permanent and cumulative</string>
+
+    <string name="achievements_title">Achievements</string>
+    <string name="achievement_progress">Progress: </string>
+    <string name="first_click">First Click</string>
+    <string name="first_click_desc">Make your first click</string>
+    <string name="hundred_clicks">100 Clicks</string>
+    <string name="hundred_clicks_desc">Make 100 clicks</string>
+    <string name="reward_format">Reward: %d points</string>
+    <string name="claim">Claim</string>
+    <string name="claimed">Claimed</string>
+    <string name="achievements_info">Achievement rewards can only be received once</string>
+    <string name="reward_received">Received %d points!</string>
+</resources>
