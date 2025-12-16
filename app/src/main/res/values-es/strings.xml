@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clicker de átomos</string>
+
+    <string name="points_initial">0</string>
+    <string name="points_per_second_initial">+0/seg</string>
+    <string name="points_per_second_format">+%d/seg</string>
+    <string name="upgrades">Mejoras</string>
+    <string name="atom">Átomo</string>
+    <string name="achievements">Logros</string>
+    <string name="settings">Configuración</string>
+    <string name="click_text_initial">+1</string>
+    <string name="click_text_format">+%d</string>
+    <string name="bonus_text">¡BONO!</string>
+
+    <string name="not_enough_points">¡Puntos insuficientes!</string>
+    <string name="upgrade_purchased">¡Mejora comprada!</string>
+    <string name="autoclicker_purchased">¡Autoclicador comprado!</string>
+    <string name="multiplier_purchased">¡Multiplicador comprado!</string>
+
+    <string name="settings_title">Configuración</string>
+    <string name="language">Idioma</string>
+    <string name="progress">Progreso</string>
+    <string name="reset_progress">Reiniciar progreso</string>
+    <string name="reset_warning">¡Atención: esta acción no se puede deshacer!</string>
+    <string name="about">Acerca de la aplicación</string>
+    <string name="app_version">Atom Clicker v1.0</string>
+
+    <string name="language_change">Cambiar idioma</string>
+    <string name="language_changed">Idioma cambiado a: %s\nLa aplicación se reiniciará</string>
+    <string name="reset_title">Reiniciar progreso</string>
+    <string name="reset_message">¿Estás seguro de que quieres reiniciar todo el progreso?\nEsta acción no se puede deshacer.</string>
+    <string name="reset_confirm">Reiniciar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="reset_complete">Progreso reiniciado</string>
+
+    <string name="upgrades_title">Mejoras</string>
+    <string name="balance">Saldo: </string>
+    <string name="click_upgrade">Potenciador de clic</string>
+    <string name="click_upgrade_desc">+1 punto por clic</string>
+    <string name="current_level_format">Nivel actual: %d</string>
+    <string name="cost_format">Costo: %d puntos</string>
+    <string name="buy">Comprar</string>
+    <string name="autoclicker">Autoclicador</string>
+    <string name="autoclicker_desc">+1 punto por segundo</string>
+    <string name="multiplier">Multiplicador</string>
+    <string name="multiplier_desc">x1.5 puntos por clic</string>
+    <string name="upgrades_info">Las mejoras son permanentes y se acumulan</string>
+
+    <string name="achievements_title">Logros</string>
+    <string name="achievement_progress">Progreso: </string>
+    <string name="first_click">Primer clic</string>
+    <string name="first_click_desc">Realiza el primer clicк</string>
+    <string name="hundred_clicks">100 clics</string>
+    <string name="hundred_clicks_desc">Realiza 100 clics</string>
+    <string name="reward_format">Recompensa: %d puntos</string>
+    <string name="claim">Reclamar</string>
+    <string name="claimed">Reclamado</string>
+    <string name="achievements_info">Las recompensas de logros solo se pueden obtener una vez</string>
+    <string name="reward_received">¡%d puntos obtenidos!</string>
+</resources>
