@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Atom Clicker</string>
+
+    <string name="points_initial">0</string>
+    <string name="points_per_second_initial">+0/Sek</string>
+    <string name="points_per_second_format">+%d/Sek</string>
+    <string name="upgrades">Upgrades</string>
+    <string name="atom">Atom</string>
+    <string name="achievements">Errungenschaften</string>
+    <string name="settings">Einstellungen</string>
+    <string name="click_text_initial">+1</string>
+    <string name="click_text_format">+%d</string>
+    <string name="bonus_text">BONUS!</string>
+
+    <string name="not_enough_points">Nicht genug Punkte!</string>
+    <string name="upgrade_purchased">Upgrade gekauft!</string>
+    <string name="autoclicker_purchased">Autoclicker gekauft!</string>
+    <string name="multiplier_purchased">Multiplikator gekauft!</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="language">Sprache</string>
+    <string name="progress">Fortschritt</string>
+    <string name="reset_progress">Fortschritt zurücksetzen</string>
+    <string name="reset_warning">Achtung: Diese Aktion kann nicht rückgängig gemacht werden!</string>
+    <string name="about">Über die App</string>
+    <string name="app_version">Atom Clicker v1.0</string>
+
+    <string name="language_change">Sprache wechseln</string>
+    <string name="language_changed">Sprache geändert zu: %s\nDie App wird neu gestartet</string>
+    <string name="reset_title">Fortschritt zurücksetzen</string>
+    <string name="reset_message">Sind Sie sicher, dass Sie den gesamten Fortschritt zurücksetzen möchten?\nDiese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="reset_confirm">Zurücksetzen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="reset_complete">Fortschritt zurückgesetzt</string>
+
+    <string name="upgrades_title">Upgrades</string>
+    <string name="balance">Guthaben: </string>
+    <string name="click_upgrade">Klick-Verstärker</string>
+    <string name="click_upgrade_desc">+1 Punkt pro Klick</string>
+    <string name="current_level_format">Aktuelles Level: %d</string>
+    <string name="cost_format">Kosten: %d Punkte</string>
+    <string name="buy">Kaufen</string>
+    <string name="autoclicker">Autoklicker</string>
+    <string name="autoclicker_desc">+1 Punkt pro Sekunde</string>
+    <string name="multiplier">Multiplikator</string>
+    <string name="multiplier_desc">x1,5 Punkte pro Klick</string>
+    <string name="upgrades_info">Upgrades sind dauerhaft und summieren sich</string>
+
+    <string name="achievements_title">Errungenschaften</string>
+    <string name="achievement_progress">Fortschritt: </string>
+    <string name="first_click">Erster Klick</string>
+    <string name="first_click_desc">Tätigen Sie den ersten Klick</string>
+    <string name="hundred_clicks">100 Klicks</string>
+    <string name="hundred_clicks_desc">Tätigen Sie 100 Klicks</string>
+    <string name="reward_format">Belohnung: %d Punkte</string>
+    <string name="claim">Einlösen</string>
+    <string name="claimed">Eingelöst</string>
+    <string name="achievements_info">Errungenschaftsbelohnungen können nur einmal erhalten werden</string>
+    <string name="reward_received">%d Punkte erhalten!</string>
+</resources>

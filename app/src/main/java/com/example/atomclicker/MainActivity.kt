@@ -115,6 +115,8 @@ class MainActivity : AppCompatActivity() {
 
         val locale = when (languageCode) {
             "ru" -> Locale("ru", "RU")
+            "es" -> Locale("es", "ES")
+            "de" -> Locale("de", "DE")
             else -> Locale.ENGLISH
         }
 
